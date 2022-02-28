@@ -2,7 +2,20 @@
 	background-color: grey;
 	display: flex;
 	vertical-align: middle;
-	
+	justify-content: flex-end; 
+
+}
+.head ul {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+}
+.head ul li {
+	margin-right: 2em;
+}
+.head h2 {
+	display: flex;
+	justify-content: flex-start;
 }
 
 
