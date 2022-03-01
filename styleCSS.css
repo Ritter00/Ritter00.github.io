@@ -64,5 +64,6 @@ header ul li {
 	
 }
 .foto {
-	float: right;
+	display: flex;
+	justify-content: center;
 }
