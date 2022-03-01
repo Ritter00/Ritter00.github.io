@@ -49,51 +49,20 @@ header ul li {
 	font-size: 2em;
 	color: white;
 	margin-left:10px;
+	margin-right: 40px;
+}
+.content {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 2vw;
 }
 
-
-.navigation{
-    float: right;
-    height: 100%;
-
+.content .grid-elem {
+	margin: 5px;
+	
+	
 }
-
-.navigation a{
-    height: 100%;
-    display: table;
-    float: left;
-    padding: 0px 20px;
-    background-color: #101010;
-}
-
-.navigation a li{
-    vertical-align: middle;
-    display: table-cell;
-    font-size: 20px;
-    color: white;
-}
-
-.navigation a:hover{
-    background-color: gray;
-    color: #101010;
-}
-
-h1 {
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    background-color: black;
-    color: white;
-    padding-bottom: 10px;
-}
-.content1 {
-    float: left;
-
-}
-.res {
-	margin-left: 6px;
+.foto {
+	float: right;
 }
