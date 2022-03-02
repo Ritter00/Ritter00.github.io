@@ -78,16 +78,18 @@ header ul li {
 	text-align: left;
 	outline: none;
 	font-size: 1em;
+	margin-bottom: 3px;
 }
 .act, .btn:hover {
 	background-color: #3c2f2f;
 }
 
-.news-portal {
+.project {
 	padding:5px 2px;
 	display: none;
 	overflow: hidden;
 	background-color: #f1f1f1;
+	
 }
 
 .btn:after {
