@@ -39,7 +39,7 @@ header ul li {
 }
 
 .active:hover {
-	background-color: cyan;
+	background-color: black;
 	box-shadow: 10px 5px 5px #ff3d00;
 }
 
@@ -54,7 +54,7 @@ header ul li {
 .content {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
-	grid-template-rows: 1fr 1fr;
+	grid-template-rows: 1fr 3fr;
 	grid-gap: 2vw;
 }
 
@@ -81,7 +81,7 @@ header ul li {
 	margin-bottom: 3px;
 }
 .act, .btn:hover {
-	background-color: #3c2f2f;
+	background-color: black;
 }
 
 .project {
@@ -102,4 +102,34 @@ header ul li {
 
 .act:after {
 	content:"\2796";
+}
+
+.pp {
+	margin-bottom: 0;
+}
+
+.scillbar {
+	background-color:#ddd;
+	box-sizing:border-box;
+	width: 100%;
+}
+
+.percent{
+	box-sizing:border-box;
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+}
+
+.python {width: 76%; background-color:blue;}
+.django {width: 70%; background-color:#04AA6D;}
+.js {width: 59%; background-color:#f44336;}
+.css {width: 68%; background-color:cyan;}
+
+.view {
+	text-align: center;
+}
+#edu li {
+	margin-bottom: 10px;
 }
