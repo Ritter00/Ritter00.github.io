@@ -133,3 +133,7 @@ header ul li {
 #edu li {
 	margin-bottom: 10px;
 }
+
+.ed {
+	overflow: auto;
+}
