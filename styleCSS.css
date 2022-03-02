@@ -67,3 +67,37 @@ header ul li {
 	display: flex;
 	justify-content: center;
 }
+
+.btn {
+	background-color: grey;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 1em;
+}
+.act, .btn:hover {
+	background-color: #3c2f2f;
+}
+
+.news-portal {
+	padding:5px 2px;
+	display: none;
+	overflow: hidden;
+	background-color: #f1f1f1;
+}
+
+.btn:after {
+	content: '\02795';
+	font-size: 1em;
+	color: white;
+	float: right;
+	margin-left: 5px;
+}
+
+.act:after {
+	content:"\2796";
+}
